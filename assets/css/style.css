@@ -1,0 +1,142 @@
+/* settaggi generici */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.sticky {
+    position: sticky;
+}
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-content-b {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-s {
+    justify-content: space-around;
+}
+.align-items-center {
+    align-items: center;
+}
+.order1 {
+    order: 1;
+}
+.order2 {
+    order: 2;
+}
+.order3 {
+    order: 3;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.overflow-auto {
+    overflow: auto;
+}
+.mw-20 {
+    max-width: 20%;
+    margin: 0 auto;
+}
+.mw-50 {
+    margin: 0 auto;
+    max-width: 50%;
+}
+.mw-80{
+    margin: 0 auto;
+    max-width: 80%;
+}
+.mw-70{
+    margin: 0 auto;
+    max-width: 70%;
+}
+.mw-100 {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-90 {
+    margin-top: 90px;
+}
+.mr-35 {
+    margin-right: 35%;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pt-250 {
+    padding-top: 250px;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}
+.p-40 {
+    padding: 40px 0;
+}
+.p-250 {
+    padding: 250px 0;
+}
+.pl-2 {
+    padding-left: 2em;
+}
+.pl-30 {
+    padding-left: 30px;
+}
+.pr-30 {
+    padding-right: 30px;
+}
+.h-35 {
+    height: 35px;
+}
+/* sezione header */
+header {
+    background-color: rgb(0,132,253);
+}
+nav {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logonav,
+.menunav,
+.comandinav {
+    flex-basis: 49%;
+}
