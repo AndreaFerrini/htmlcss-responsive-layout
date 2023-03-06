@@ -140,3 +140,9 @@ a {
 .comandinav {
     flex-basis: 49%;
 }
+/* sezione main */
+.col-30 {
+    width: calc(100% / 1 - 2%);
+    background-color: rgb(181,221,255);
+    border: 1px solid black;
+}
